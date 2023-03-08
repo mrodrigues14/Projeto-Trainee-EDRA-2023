@@ -70,7 +70,7 @@ print("-------------------------------------------")
 print("loading data stored using numpy savez function\n \n \n")
 
 data = np.load(f"{calib_data_path}/MultiMatrix.npz")
-
+ 
 camMatrix = data["camMatrix"]
 distCof = data["distCoef"]
 rVector = data["rVector"]
